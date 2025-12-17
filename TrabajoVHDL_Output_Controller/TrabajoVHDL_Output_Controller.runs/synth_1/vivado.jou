@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Dec 15 15:20:43 2025
+# Process ID: 4576
+# Current directory: D:/UPM/4_1_SED/TrabajoVHDL_Output_Controller/TrabajoVHDL_Output_Controller.runs/synth_1
+# Command line: vivado.exe -log Display_Controller.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Display_Controller.tcl
+# Log file: D:/UPM/4_1_SED/TrabajoVHDL_Output_Controller/TrabajoVHDL_Output_Controller.runs/synth_1/Display_Controller.vds
+# Journal file: D:/UPM/4_1_SED/TrabajoVHDL_Output_Controller/TrabajoVHDL_Output_Controller.runs/synth_1\vivado.jou
+# Running On        :MSCDRE90
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+# CPU Frequency     :1800 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8395 MB
+# Swap memory       :3489 MB
+# Total Virtual     :11885 MB
+# Available Virtual :4014 MB
+#-----------------------------------------------------------
+source Display_Controller.tcl -notrace

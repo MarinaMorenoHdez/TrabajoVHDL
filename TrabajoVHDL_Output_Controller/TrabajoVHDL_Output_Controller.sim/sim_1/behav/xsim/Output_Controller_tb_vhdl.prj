@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TrabajoVHDL_Output_Controller.srcs/sources_1/new/Display_Controller.vhd" \
+"../../../../TrabajoVHDL_Output_Controller.srcs/sources_1/new/LEDS_Controller.vhd" \
+"../../../../TrabajoVHDL_Output_Controller.srcs/sources_1/new/Output_Controller.vhd" \
+"../../../../TrabajoVHDL_Output_Controller.srcs/sim_1/new/Output_Controller_tb.vhd" \
+
+# Do not sort compile order
+nosort
