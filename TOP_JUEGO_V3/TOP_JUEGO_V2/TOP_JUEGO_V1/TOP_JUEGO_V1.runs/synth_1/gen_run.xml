@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1766145373" LaunchIncrCheckpoint="$PPRDIR/../../../../jmlla/Desktop/Cuarto_Carrera/TRABAJO_SED/VHDL/TOP_JUEGO_V1/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/utils_1/imports/synth_1/TOP_JUEGO.dcp">
+  <File Type="REPORTS-TCL" Name="TOP_JUEGO_reports.tcl"/>
+  <File Type="RDS-UTIL" Name="TOP_JUEGO_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TOP_JUEGO_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="TOP_JUEGO.tcl"/>
+  <File Type="RDS-RDS" Name="TOP_JUEGO.vds"/>
+  <File Type="RDS-DCP" Name="TOP_JUEGO.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL3_debouncer/Trabajo_VHDL_mi.srcs/sources_1/new/Debouncer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Trabajo_VHDL_mi/Trabajo_VHDL3_debouncer/Trabajo_VHDL_mi.srcs/sources_1/new/Debouncer.vhd"/>
+        <Attr Name="ImportTime" Val="1765884439"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Archivos/Display_Controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Archivos/Display_Controller.vhd"/>
+        <Attr Name="ImportTime" Val="1766144565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL3_debouncer/Trabajo_VHDL_mi.srcs/sources_1/new/Edge_Detector.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Trabajo_VHDL_mi/Trabajo_VHDL3_debouncer/Trabajo_VHDL_mi.srcs/sources_1/new/Edge_Detector.vhd"/>
+        <Attr Name="ImportTime" Val="1765884516"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Archivos/FSM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Archivos/FSM.vhd"/>
+        <Attr Name="ImportTime" Val="1766144384"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL5_game_logic/Trabajo_VHDL_mi.srcs/sources_1/new/Game_Logic.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Trabajo_VHDL_mi/Trabajo_VHDL5_game_logic/Trabajo_VHDL_mi.srcs/sources_1/new/Game_Logic.vhd"/>
+        <Attr Name="ImportTime" Val="1765997198"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Input_Manager.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Trabajo_VHDL_mi/Trabajo_VHDL5_game_logic/Trabajo_VHDL_mi.srcs/sources_1/new/Input_Manager.vhd"/>
+        <Attr Name="ImportTime" Val="1765883922"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Archivos/LEDS_Controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Archivos/LEDS_Controller.vhd"/>
+        <Attr Name="ImportTime" Val="1766144565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Archivos/Output_Controller.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Archivos/Output_Controller.vhd"/>
+        <Attr Name="ImportTime" Val="1766144437"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL1_synchr/Trabajo_VHDL_mi.srcs/sources_1/new/Synchronizer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Trabajo_VHDL_mi/Trabajo_VHDL1_synchr/Trabajo_VHDL_mi.srcs/sources_1/new/Synchronizer.vhd"/>
+        <Attr Name="ImportTime" Val="1765629611"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TOP_JUEGO.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TOP_JUEGO"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Labs_4/SED/Laborstoriiux/digilent-xdc-master/Nexys-A7-100T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1766072149"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/TOP_JUEGO.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2025"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
