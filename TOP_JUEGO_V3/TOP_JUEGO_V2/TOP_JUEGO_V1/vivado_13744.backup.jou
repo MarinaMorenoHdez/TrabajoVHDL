@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Dec 23 11:50:55 2025
+# Process ID         : 13744
+# Current directory  : C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent13436 C:\Users\AdmLocal\Downloads\TOP_JUEGO_V2\TOP_JUEGO_V1\TOP_JUEGO_V1.xpr
+# Log file           : C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/vivado.log
+# Journal file       : C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1\vivado.jou
+# Running On         : Internet
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 8353 MB
+# Swap memory        : 2281 MB
+# Total Virtual      : 10634 MB
+# Available Virtual  : 3512 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Debouncer.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/TOP_JUEGO.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Edge_Detector.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Display_Controller.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Game_Logic.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Input_Manager.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/FSM.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/LEDS_Controller.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Output_Controller.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/Synchronizer.vhd}
+update_compile_order -fileset sources_1
+remove_files  {C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL3_debouncer/Trabajo_VHDL_mi.srcs/sources_1/new/Debouncer.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Archivos/Display_Controller.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL3_debouncer/Trabajo_VHDL_mi.srcs/sources_1/new/Edge_Detector.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Archivos/FSM.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL5_game_logic/Trabajo_VHDL_mi.srcs/sources_1/new/Game_Logic.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/new/Input_Manager.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Archivos/LEDS_Controller.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Archivos/Output_Controller.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/imports/Trabajo_VHDL_mi/Trabajo_VHDL1_synchr/Trabajo_VHDL_mi.srcs/sources_1/new/Synchronizer.vhd C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sources_1/new/TOP_JUEGO.vhd}
+add_files -fileset constrs_1 -norecurse C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/constrs_1/Nexys-A7-100T-Master.xdc
+remove_files  -fileset constrs_1 C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc
+add_files -norecurse C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/utils_1/TOP_JUEGO.dcp
+update_compile_order -fileset sources_1
+remove_files  -fileset utils_1 C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/utils_1/imports/synth_1/TOP_JUEGO.dcp
+remove_files  C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/utils_1/TOP_JUEGO.dcp
+remove_files  C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/utils_1/TOP_JUEGO.dcp
+file mkdir C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new/TOP_JUEGO_tb.vhd w ]
+add_files -fileset sim_1 C:/Users/AdmLocal/Downloads/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new/TOP_JUEGO_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source TOP_JUEGO_tb.tcl
+run 10 s
+close_sim

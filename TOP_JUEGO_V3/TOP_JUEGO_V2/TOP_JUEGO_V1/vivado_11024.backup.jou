@@ -1,0 +1,90 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Dec 31 15:58:17 2025
+# Process ID         : 11024
+# Current directory  : E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent17888 E:\UPM\4_1_SED\TOP_JUEGO_V3\TOP_JUEGO_V3\TOP_JUEGO_V2\TOP_JUEGO_V1\TOP_JUEGO_V1.xpr
+# Log file           : E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/vivado.log
+# Journal file       : E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1\vivado.jou
+# Running On         : Internet
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 8353 MB
+# Swap memory        : 2281 MB
+# Total Virtual      : 10634 MB
+# Available Virtual  : 2470 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new/Display_Controller_tb.vhd w ]
+add_files -fileset sim_1 E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new/Display_Controller_tb.vhd
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new/LEDS_Controller_tb.vhd w ]
+add_files -fileset sim_1 E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.srcs/sim_1/new/LEDS_Controller_tb.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+source Buzzer_controller_tb.tcl
+close_sim
+launch_simulation
+source Buzzer_controller_tb.tcl
+save_wave_config {E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg}
+add_files -fileset sim_1 -norecurse E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg
+set_property xsim.view E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg [get_filesets sim_1]
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Display_Controller_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg
+source Display_Controller_tb.tcl
+run 10 ms
+run 10 ms
+run 10 ms
+run all
+run 10 ms
+run 10 us
+run all
+close_sim
+launch_simulation
+open_wave_config E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg
+source Display_Controller_tb.tcl
+close_sim
+launch_simulation
+open_wave_config E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg
+source Display_Controller_tb.tcl
+run 10 us
+run 10 us
+run 10 us
+run 10 s
+run 10 s
+run 10 s
+run all
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top LEDS_Controller_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim
+launch_simulation
+open_wave_config E:/UPM/4_1_SED/TOP_JUEGO_V3/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/Buzzer_controller_tb_SIM.wcfg
+source LEDS_Controller_tb.tcl
+run 10 s
+close_sim

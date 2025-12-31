@@ -1,0 +1,92 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Fri Dec 19 12:58:01 2025
+| Host         : LAPTOP-LA81HGSJ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TOP_JUEGO_control_sets_placed.rpt
+| Design       : TOP_JUEGO
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    14 |
+|    Minimum number of control sets                        |    14 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    40 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    14 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     6 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     8 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              16 |           11 |
+| No           | No                    | Yes                    |              22 |            6 |
+| No           | Yes                   | No                     |              75 |           22 |
+| Yes          | No                    | No                     |               9 |            4 |
+| Yes          | No                    | Yes                    |              29 |            8 |
+| Yes          | Yes                   | No                     |              65 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------+--------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |             Enable Signal            |               Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+--------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  CLK100MHZ_IBUF_BUFG | U_GAME_LOGIC/road_l                  | U_FSM/SR[0]                                  |                2 |              4 |         2.00 |
+|  CLK100MHZ_IBUF_BUFG | U_GAME_LOGIC/led_step_counter        | U_GAME_LOGIC/led_step_counter[3]_i_1_n_0     |                1 |              4 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG | U_GAME_LOGIC/road_r_0                | U_FSM/SR[0]                                  |                2 |              4 |         2.00 |
+|  CLK100MHZ_IBUF_BUFG | U_INPUT/Inst_Edge_R/sreg_reg[2]_0[0] |                                              |                2 |              4 |         2.00 |
+|  CLK100MHZ_IBUF_BUFG | U_GAME_LOGIC/progress_count          | U_FSM/SR[0]                                  |                2 |              5 |         2.50 |
+|  CLK100MHZ_IBUF_BUFG | U_FSM/LEDS_RGB_OBUF[0]               |                                              |                2 |              5 |         2.50 |
+|  CLK100MHZ_IBUF_BUFG |                                      |                                              |               11 |             16 |         1.45 |
+|  CLK100MHZ_IBUF_BUFG | U_FSM/E[0]                           | U_FSM/SR[0]                                  |                4 |             16 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG |                                      | U_INPUT/Inst_Deb_L/counter[0]_i_1_n_0        |                5 |             20 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG |                                      | U_INPUT/Inst_Deb_R/counter[0]_i_1__0_n_0     |                5 |             20 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG |                                      | U_INPUT/Inst_Deb_Start/counter[0]_i_1__1_n_0 |                5 |             20 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG | U_FSM/timer_counter[28]_i_1_n_0      | U_FSM/RESET_N                                |                8 |             29 |         3.62 |
+|  CLK100MHZ_IBUF_BUFG | U_FSM/ENABLE_GAME                    | U_FSM/FSM_sequential_current_state_reg[0]_0  |                8 |             32 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG |                                      | U_FSM/RESET_N                                |               13 |             37 |         2.85 |
++----------------------+--------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Dec 22 18:06:31 2025
+# Process ID         : 20180
+# Current directory  : C:/Users/jmlla/Desktop/Cuarto_Carrera/TRABAJO_SED/VHDL/TOP_JUEGO_V1/TOP_JUEGO_V1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent3732 C:\Users\jmlla\Desktop\Cuarto_Carrera\TRABAJO_SED\VHDL\TOP_JUEGO_V1\TOP_JUEGO_V1\TOP_JUEGO_V1.xpr
+# Log file           : C:/Users/jmlla/Desktop/Cuarto_Carrera/TRABAJO_SED/VHDL/TOP_JUEGO_V1/TOP_JUEGO_V1/vivado.log
+# Journal file       : C:/Users/jmlla/Desktop/Cuarto_Carrera/TRABAJO_SED/VHDL/TOP_JUEGO_V1/TOP_JUEGO_V1\vivado.jou
+# Running On         : LAPTOP-LA81HGSJ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+# CPU Frequency      : 1992 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16985 MB
+# Swap memory        : 1140 MB
+# Total Virtual      : 18125 MB
+# Available Virtual  : 6932 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jmlla/Desktop/Cuarto_Carrera/TRABAJO_SED/VHDL/TOP_JUEGO_V1/TOP_JUEGO_V1/TOP_JUEGO_V1.xpr
+update_compile_order -fileset sources_1
+import_files

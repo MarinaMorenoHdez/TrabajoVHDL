@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Buzzer_controller_tb_behav" "xil_defaultlib.Buzzer_controller_tb" -log "elaborate.log" 
