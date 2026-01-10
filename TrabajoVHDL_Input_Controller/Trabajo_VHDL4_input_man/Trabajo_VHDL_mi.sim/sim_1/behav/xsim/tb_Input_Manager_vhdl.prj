@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Trabajo_VHDL_mi.srcs/sources_1/new/Debouncer.vhd" \
+"../../../../Trabajo_VHDL_mi.srcs/sources_1/new/Edge_Detector.vhd" \
+"../../../../Trabajo_VHDL_mi.srcs/sources_1/new/Input_Manager.vhd" \
+"../../../../Trabajo_VHDL_mi.srcs/sources_1/new/Synchronizer.vhd" \
+"../../../../Trabajo_VHDL_mi.srcs/sources_1/new/tb_Input_Manager.vhd" \
+
+# Do not sort compile order
+nosort
