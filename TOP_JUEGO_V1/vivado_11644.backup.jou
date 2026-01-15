@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Jan 15 12:05:36 2026
+# Process ID         : 11644
+# Current directory  : C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent4580 C:\Users\sed\Downloads\TrabajoVHDL-main\TOP_JUEGO_V3\TOP_JUEGO_V2\TOP_JUEGO_V1\TOP_JUEGO_V1.xpr
+# Log file           : C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/vivado.log
+# Journal file       : C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1\vivado.jou
+# Running On         : DESKTOP-ASVU0S2
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19044
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 34088 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39188 MB
+# Available Virtual  : 32320 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+copy_run -name synth_1_copy_1 [get_runs synth_1] 
+set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+set_property target_language VHDL [current_project]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TOP_JUEGO [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TOP_JUEGO_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 28
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Desktop/estados/estados.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+close_hw_manager
+close_design
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:\Users\sed\Desktop\estados\estados.runs\impl_1\top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Desktop/estados/estados.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property target_language Verilog [current_project]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Desktop/estados/estados.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

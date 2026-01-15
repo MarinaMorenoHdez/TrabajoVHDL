@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Jan 15 12:19:05 2026
+# Process ID         : 11176
+# Current directory  : C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent7676 C:\Users\sed\Downloads\TrabajoVHDL-main\TOP_JUEGO_V3\TOP_JUEGO_V2\TOP_JUEGO_V1\TOP_JUEGO_V1.xpr
+# Log file           : C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/vivado.log
+# Journal file       : C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1\vivado.jou
+# Running On         : DESKTOP-ASVU0S2
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19044
+# Processor Detail   : Intel(R) Core(TM) i7-14700
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 20
+# CPU Logical cores  : 28
+# Host memory        : 34088 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39188 MB
+# Available Virtual  : 31991 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:\Users\sed\Desktop\estados\estados.runs\impl_1\top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/sed/Downloads/TrabajoVHDL-main/TOP_JUEGO_V3/TOP_JUEGO_V2/TOP_JUEGO_V1/TOP_JUEGO_V1.runs/impl_1/TOP_JUEGO.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
