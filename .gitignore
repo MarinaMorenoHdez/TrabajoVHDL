@@ -1,84 +1,67 @@
-#########################################################################################################
-##	This is an example .gitignore file for Vivado, please treat it as an example as 
-##	it might not be complete. In addition, XAPP 1165 should be followed.
-#########################################################################################################
-#########
-#Exclude all
-#########
+###########################################################################
+## VIVADO .gitignore (Basado en XAPP 1165)
+###########################################################################
+
+# 1. Ignorar absolutamente todo por defecto
 *
+# Pero no ignorar las carpetas en sí (necesario para poder entrar en ellas)
 !*/
+
+# 2. No ignorar este archivo .gitignore
 !.gitignore
+
 ###########################################################################
-##	VIVADO
+## ARCHIVOS DE DISEÑO Y CÓDIGO FUENTE
 ###########################################################################
-#########
-#Source files:
-#########
-#Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
+# HDL y Netlists
 !*.vhd
 !*.v
 !*.bd
 !*.edif
-#########
-#IP files
-#########
-#.xci: synthesis and implemented not possible - you need to return back to the previous version to generate output products
-#.xci + .dcp: implementation possible but not re-synthesis
-#*.xci(www.spiritconsortium.org)
+
+# Ficheros de IP (Intellectual Property)
 !*.xci
-#*.dcp(checkpoint files)
 !*.dcp
 !*.vds
 !*.pb
-#All bd comments and layout coordinates are stored within .ui
 !*.ui
 !*.ooc
-#########
-#System Generator
-#########
+
+# System Generator (Matlab/Simulink)
 !*.mdl
 !*.slx
 !*.bxml
-#########
-#Simulation logic analyzer
-#########
+
+# Simulación y Coeficientes
 !*.wcfg
 !*.coe
-#########
-#MIG
-#########
+
+# Memory Interface Generator (MIG)
 !*.prj
 !*.mem
-#########
-#Project files
-#########
-#XPR  +  *.XML ? XPR (Files are merged into a single XPR file for 2014.1 version)
-#Do NOT ignore *.xpr files
+
+###########################################################################
+## PROYECTO Y CONFIGURACIÓN
+###########################################################################
+# Archivos de proyecto Vivado
 !*.xpr
-#Include *.xml files for 2013.4 or earlier version
 !*.xml
-#########
-#Constraint files
-#########
-#Do NOT ignore *.xdc files
+
+# Restricciones (Constraints)
 !*.xdc
-#########
-#TCL - files
-#########
+
+# Scripts y bitácoras
 !*.tcl
-#########
-#Journal - files
-#########
 !*.jou
-#########
-#Reports
-#########
+
+# Reportes y logs útiles
 !*.rpt
 !*.txt
 !*.vdi
-#########
-#C-files
-#########
+
+###########################################################################
+## ARCHIVOS DE SOFTWARE (SDK / Vitis)
+###########################################################################
 !*.c
 !*.h
 !*.elf
