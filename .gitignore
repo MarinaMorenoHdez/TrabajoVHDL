@@ -9,6 +9,7 @@
 
 # 2. No ignorar este archivo .gitignore
 !.gitignore
+!README.md
 
 ###########################################################################
 ## ARCHIVOS DE DISEÑO Y CÓDIGO FUENTE
